@@ -1,8 +1,8 @@
-function willSuccess(array) {
+function willSuccess(marks) {
     let pass = [];
     let fail = [];
-    if( typeof(array)=== 'object'){
-        for (let arr of array) {
+    if( typeof(marks)=== 'object'){
+        for (let arr of marks) {
             if (arr >= 50) {
                 pass.push(arr);
             } 
@@ -24,6 +24,6 @@ function willSuccess(array) {
         return 'Invalid'
     }
 }
-let marks = [55, 75, 41, 33, 0, 87, 91, 30];
+let marks = 90;
 let result = willSuccess(marks)
 console.log(result);
