@@ -16,4 +16,4 @@ function validProposal(input1, input2){
 
 let willMarry = validProposal({ name: "mitu", gender: "male", age: 32 }, "Mizan" )
 
-console.log(willMarry)
+console.log(willMarry);

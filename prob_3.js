@@ -1,7 +1,7 @@
 function willSuccess(marks) {
     let pass = [];
     let fail = [];
-    if( typeof(marks)=== 'object'){
+    if( Array.isArray(marks)){
         for (let arr of marks) {
             if (arr >= 50) {
                 pass.push(arr);

@@ -8,5 +8,5 @@ function calculateVAT(amount) {
     
     return vat;
 }
-let result = calculateVAT('foo');
+let result = calculateVAT("foo");
 console.log(result)
